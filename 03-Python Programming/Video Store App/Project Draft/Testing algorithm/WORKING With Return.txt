@@ -1,0 +1,26 @@
+USE world;
+
+DELIMITER //
+DROP PROCEDURE IF EXISTS sp_Check_ClientExists;
+
+CREATE PROCEDURE sp_Check_ClientExists(IN str VARCHAR(40), OUT numFound BOOL )
+BEGIN
+	DECLARE i INT;
+    
+SELECT COUNT(District) INTO i FROM city WHERE District = str ;
+
+IF i = 0 THEN
+	SET numFound = FALSE; 
+	SELECT Population FROM city;
+ELSE
+	SET numFound = TRUE;
+	SELECT CountryCode FROM city;
+END IF;
+
+END//
+DELIMITER ;
+
+
+call sp_Check_ClientExists('Kabol', @numFound);
+SELECT @numFound AS 'Found'
+

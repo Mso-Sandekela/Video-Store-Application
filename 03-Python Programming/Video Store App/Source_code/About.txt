@@ -1,0 +1,43 @@
+==============================================================
+********************WELCOME TO VIDEO STORE********************
+==============================================================
+--------------------------------------------------------------
+>>This is a Video Store application used for hiring out movies,
+returning movies and registering movies.
+
+>>To use the application the user needs to be registered
+using the application.
+
+>>Using this application is pretty straight forward 
+as it is user friendly just follow the instructions.
+
+--------------------------------------------------------------
+			How To USE
+--------------------------------------------------------------
+*>>If you are a new user:
+     1. Before choosing any other options besides "About"
+     you should be registered into the system,so first step 
+     is choosing the "Register Customer" option.
+     (Remember: respond with option number e.g(1) 
+     instead of writing "Register Customer".
+
+>>Once registered can now Register Movie, Hire Out Movie.
+
+*>>To register a movie you need to:
+     1. Enter the movie name
+     2. Enter the type of the movie
+     (RE: yon enter only one charactor "R" for new movie
+     "B" for old movies.)
+
+>>Once a movie has been registered it can be hired out
+and if hired out then it can be returned as well.
+
+*>>To hire out a movie:
+     1. Enter your phone number so the movie 
+     can be linked to you.
+     2.Enter the movies id 
+
+*>>To show you returned the movie simply:
+     1. Enter the movies id.
+--------------------------------------------------------------
+==============================================================
